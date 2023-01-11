@@ -1,0 +1,17 @@
+const ActionTypes = {
+ 
+    //Counter
+    ADD_COUNTER : "ADD_COUNTER",
+    MINUS_COUNTER : "MINUS_COUNTER", 
+
+    //   /products
+    GET_PRODUCTDATA_LOADING: "GET_PRODUCTDATA_LOADING",
+    GET_PRODUCTDATA_SUCCESS: "GET_PRODUCTDATA_SUCCESS",
+    GET_PRODUCTDATA_FAIL: "GET_PRODUCTDATA_FAIL",
+  
+    //ADD_TO_CART
+    ADD_TO_CART: "ADD_TO_CART",
+    REMOVE_FROM_CART: "REMOVE_FROM_CART",
+  };
+  
+  export default ActionTypes;
